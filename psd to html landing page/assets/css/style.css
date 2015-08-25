@@ -1,0 +1,276 @@
+@font-face {
+    font-family: Opensans-regular;
+    src: url(assets/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Opensans-bold;
+    src: url(assets/fonts/OpenSans-Bold);
+}
+@font-face {
+    font-family: Opensans-BoldItalic;
+    src: url(assets/fonts/OpenSans-BoldItalic.ttf);
+}
+@font-face {
+    font-family: Opensans-extraBold;
+    src: url(assets/fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Opensans-extraBolditalic;
+    src: url(assets/fonts/OpenSans-ExtraBoldItalic.ttf);
+}
+body{
+    background: #ede9c7;
+}
+@media (min-width: 1200px) {
+  .container {
+  max-width: 1170px;
+  width: 1170px;
+}
+}
+header{
+    background:url(../../images/topbarsolid.jpg) no-repeat center top;
+   height: 125px;	
+}
+.firstimg{
+    margin-top: 16px;
+}
+.middleimg{
+     margin-top: 5px;
+}
+.lastimg{
+    margin-top: 33px;
+}
+.topbanner{
+    background: url(../../images/headerbanner.jpg) no-repeat top center;
+    min-height: 840px;
+    font-family: benaNeue;
+}
+.topbanner h2{
+    font-family: Opensans-bold, arial;
+    font-size: 60px; 
+    margin-bottom:0; 
+    margin-top: 125px;
+    font-weight: bolder;
+    
+}
+.white-color{
+    color: #fff;
+}
+.light-yellow{
+    color: #FEC440;
+}
+.topbanner h4{
+    font-family: Opensans-bold, arial;
+    font-size: 2.5em; 
+    margin-bottom:0; 
+}
+.topbanner p{
+    font-family: 'Open Sans', sans-serif; color:#FFFFFF; font-weight:bold; font-size: 22px; margin-top: 29px;
+}
+.sevenguarantee{
+    display: block;
+    margin-top: 20px;
+}
+.mayimg{
+    display: inline-block;
+}
+.formarea {
+    background: none repeat scroll 0 0 #FBB51B;
+    margin-top: 30px;
+    max-width: 340px;
+    padding: 30px;
+    text-align: center;
+}
+.formarea h2{
+    margin: 0 !important;
+    font-family: open sans;
+    font-weight: bolder;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #0E0E0E;
+}
+.formarea p{
+    margin: 0 0 25px !important;
+    font-family: open sans;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: lowercase;
+    color: #0E0E0E;
+}
+.formarea label{
+    text-align: left;
+    width: 100%;
+}
+.mybtn{
+    background: url("../../images/submitbutton.jpg") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    border-radius: 0;
+    color: #ffffff;
+    font-family: open sans;
+    font-size: 27px;
+    line-height: 50px;
+    padding: 0 32px;
+}
+.bg-white{
+    background: #fff;
+    display: block;
+    margin: 30px 15px 0;
+    padding-top: 19px;
+    
+}
+.video-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden; 
+} 
+.video-container iframe, 
+.video-container object, 
+.video-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+.vidiotitle{
+    color: #000000;
+    font-family: Bradley Hand ITC;
+    font-size: 38px;
+}
+.expert-form{
+    position: relative;
+}
+.expert-form p{
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    width: 100%;
+}
+
+#circle-shape-example { 
+  font-family: Open Sans, sans-serif; 
+  margin: 2rem; 
+}
+#circle-shape-example p { 
+  line-height: 1.3;
+  color: #000;
+  font-size:17px;
+  font-weight: normal;
+}
+#circle-shape-example .curve {   
+  min-width: 150px;
+  float: left;
+  margin-right:1rem; 
+  border-radius: 0%;
+  -webkit-shape-outside:polygon(0 0, 67% 0, 99% 100%, 0 100%);
+  -moz-shape-outside:polygon(0 0, 67% 0, 99% 100%, 0 100%);
+    shape-outside: polygon(0 0, 67% 0, 99% 100%, 0 100%);
+  transition: shape-outside 1s;
+}
+.bg-white1{
+  background: #fff;
+  margin: -10px 11px 0;
+  padding-top: 19px;
+  display: inline-block;
+}
+.boldtitle{
+    font-family: open sanp !important;
+    font-size: 32px !important;
+    font-weight: bold !important;
+    margin-top: 100px !important;
+    text-align: center;
+    margin-bottom: 45px !important;
+}
+.txt-center{
+    text-align: center;
+  width: 100%;
+  color: #000 !important;
+  margin: 12px 0 12px !important;
+  font-size: 15px !important;
+}
+.bg-color2 {
+    background: none repeat scroll 0 0 #ffffff;
+    margin: 0 -4px;
+    padding-bottom: 60px;
+}
+#poligon-shape-example { 
+  font-family: Open Sans, sans-serif; 
+  margin: 2rem 0; 
+}
+#poligon-shape-example p { 
+  line-height: 1.3;
+  color: #000;
+  font-size:14px;
+  font-weight: normal;
+}
+#poligon-shape-example .poligon {  
+  min-width: 150px;
+  float: right;
+  margin-right:0; 
+  border-radius: 0%;
+  -webkit-shape-outside:polygon(41% 0%, -11% 79%, 100% 100%, 100% 0);
+  -moz-shape-outside:polygon(41% 0%, -11% 79%, 100% 100%, 100% 0);
+  shape-outside: polygon(41% 0%, -11% 79%, 100% 100%, 100% 0);
+  transition: shape-outside 1s;
+}
+footer{
+    background: url(../../images/footer-bg.jpg) repeat top center;
+}
+footer h3{
+    font-family: Open Sans,sans-serif;
+    margin: 30px 0;
+}
+.row-form {
+    margin: 5px 10px 2px;
+    width: 100%;
+}
+.row-form .form-group {
+    width: 40% !important;
+}
+.row-form .form-group input {
+    width: 100% !important;
+    border-radius: 0;
+}
+.row-form .form-group p {
+    color:#fff;
+    font-family: Open Sans, sans-serif;
+}
+.row-form .form-group select {
+    width: 100% !important;
+    border-radius: 0;
+}
+.footernav{
+   text-align: left; 
+}
+.footernav h3{
+  margin-top: 56px !important;
+  font-family: Open sans, sans-serif;
+  color: #fff;
+  font-weight: bold;
+   margin-bottom: 13px
+}
+.footernav ul{
+    margin: 0;
+    padding: 0;
+}
+.footernav ul li{
+    list-style: none;
+}
+.footernav ul li a{
+    color: #ffffff;
+    font-family: Open snap,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 31px;
+}
+.copyright{
+    color: #fff;
+    font-family: Open Snap, sans-serif;
+    font-size: 12px;
+    margin: 30px 0;
+}
